@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wku{
+            border-radius: 40px;
+        }
+        nav{
+            background-color: cornflowerblue;
+            height: 80px;
+            width: 100%;
+        }
+        nav ul{
+            float:right;
+        }
+        nav ul li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .Griid-style{
+            
+            display: grid;
+            grid-template-columns: 200px 50%;
+            margin: 10px;
+            
+        }
+        .myphoto{
+            width: 170px;
+
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="wku"src="channel-picture/images.jfif" target="_blanck" 
+        alt="Wolkite University Logo"  width="80" >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">School</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <div class="Griid-style">
+      <div style="background-color:grey;">
+        <img class="myphoto" src="photo.jpg" alt="myphoto">
+       <a href="https://www.wku.edu.et" >visit Wolkite University</a>
+      </div>
+      <div style="background-color:lightgreen;">
+        <p>Name: Yusuf Abubeker <br>
+           Software Engineering Student <br>
+           Place Of Birth: Shewarobit <br>
+
+
+        </p>
+        <a href="mailto:yusufabubeker2@gmail.com" title="click to send email">Send Email</a>
+        
+        <button 
+        onclick="window.location.href='https://www.wku.edu.et'"> Visit WKU</button>
+      </div>
+    </div>
+</body>
+</html>
